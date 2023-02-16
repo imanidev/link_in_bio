@@ -1,5 +1,5 @@
-const name = "Hi, I'm Imani.";
-const element = document.getElementById("Hi, I'm Imani.");
+const name = "Hi, I'm Imani";
+const element = document.getElementById("Hi, I'm Imani");
 
 function typeWriter(text, el) {
     let i = 0;
