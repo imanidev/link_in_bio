@@ -2,7 +2,7 @@ html,
 body {
 
     background-color: rgb(15, 14, 14);
-justify-content: center;
+    justify-content: center;
     display: flexbox;
     font-family: 'chakra petch';
 
@@ -15,7 +15,9 @@ h1 {
 
 }
 
-
+ul {
+    color: white;
+}
 
 p {
     font-size: 20px;
@@ -49,9 +51,6 @@ nav {
     text-align: center;
 }
 
-/* .small {
-    font-size: 14px;
-} */
 li {
     list-style: none;
     text-align: center;
@@ -61,14 +60,40 @@ li {
 nav a {
     text-decoration: none;
     color: white;
+    margin-left: 0;
 }
 
-a:hover {
+nav a:hover {
     font-weight: bold;
-    color: chartreuse;
+    color:  rgb(155, 225, 85);
 }
 
-ul a:checked {
+/* .letstalk a {
+    text-decoration: none;
+    color: white;
+    font-family: 'chakra petch';
+    margin: auto;
+
+} */
+
+/* .letstalk {
+background-color:  rgb(94, 94, 94); 
+border: solid 2px; 
+height: 40px;
+width: 100px;
+margin:auto;
+padding:auto;
+font-size: 10px;
+font-weight: bold;
+border-radius:10%;
+} */
+
+button: {
+    
+    background-color: blue;
+}
+
+a:checked {
     color: orange;
 }
 
@@ -76,9 +101,7 @@ form {
     text-align: center;
 }
 
-/* input[text] {
-    text-align: center;
-} */
+
 
 .message {
     padding: 10px;
@@ -86,7 +109,8 @@ form {
 
 footer h5 {
     text-align: center;
-    margin: 40px;
+    margin-left: 50px;
+    padding: 80px;
     color: rgb(155, 225, 85);
 
 }
