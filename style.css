@@ -2,8 +2,7 @@ html,
 body {
 
     background-color: rgb(15, 14, 14);
-    justify-content: center;
-    display: flexbox;
+
     font-family: 'chakra petch';
 
 }
@@ -22,6 +21,7 @@ ul {
 p {
     font-size: 20px;
     color: white;
+    line-height: 1.25;
 
 }
 
@@ -49,6 +49,8 @@ nav {
 
 .aboutme {
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
 li {
@@ -60,12 +62,19 @@ li {
 nav a {
     text-decoration: none;
     color: white;
-    margin-left: 0;
+    margin: 50px;
+    width: 50%;
+}
+
+.socials {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 nav a:hover {
     font-weight: bold;
-    color:  rgb(155, 225, 85);
+    color: rgb(155, 225, 85);
 }
 
 /* .letstalk a {
@@ -88,37 +97,17 @@ font-weight: bold;
 border-radius:10%;
 } */
 
-button: {
-    
-    background-color: blue;
-}
-
 a:checked {
     color: orange;
 }
 
-form {
-    text-align: center;
-}
-
-
-
-.message {
-    padding: 10px;
-}
-
-footer h5 {
-    text-align: center;
-    margin-left: 50px;
-    padding: 80px;
+h5 {
     color: rgb(155, 225, 85);
 
+    text-align: center;
 }
 
-
-
-
-.message {
-    vertical-align: top;
-    color: white;
+.container {
+    display: inline-block;
+    margin-right: 60px;
 }
