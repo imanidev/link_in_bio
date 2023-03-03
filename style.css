@@ -2,8 +2,7 @@ html,
 body {
 
     background-color: rgb(15, 14, 14);
-justify-content: center;
-    display: flexbox;
+
     font-family: 'chakra petch';
 
 }
@@ -15,11 +14,14 @@ h1 {
 
 }
 
-
+ul {
+    color: white;
+}
 
 p {
     font-size: 20px;
     color: white;
+    line-height: 1.25;
 
 }
 
@@ -47,11 +49,10 @@ nav {
 
 .aboutme {
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
-/* .small {
-    font-size: 14px;
-} */
 li {
     list-style: none;
     text-align: center;
@@ -61,40 +62,52 @@ li {
 nav a {
     text-decoration: none;
     color: white;
+    margin: 50px;
+    width: 50%;
 }
 
-a:hover {
+.socials {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+nav a:hover {
     font-weight: bold;
-    color: chartreuse;
+    color: rgb(155, 225, 85);
 }
 
-ul a:checked {
+/* .letstalk a {
+    text-decoration: none;
+    color: white;
+    font-family: 'chakra petch';
+    margin: auto;
+
+} */
+
+/* .letstalk {
+background-color:  rgb(94, 94, 94); 
+border: solid 2px; 
+height: 40px;
+width: 100px;
+margin:auto;
+padding:auto;
+font-size: 10px;
+font-weight: bold;
+border-radius:10%;
+} */
+
+a:checked {
     color: orange;
 }
 
-form {
+h5 {
+    color: rgb(155, 225, 85);
+
     text-align: center;
 }
 
-/* input[text] {
-    text-align: center;
-} */
-
-.message {
-    padding: 10px;
-}
-
-footer h5 {
-    text-align: center;
-    margin: 40px;
-    color: white;
-
-}
-
-
-
-
-.message {
-    vertical-align: top;
-    color: white;
+.container {
+    display: inline-block;
+    margin-right: 60px;
 }
