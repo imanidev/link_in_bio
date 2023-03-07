@@ -111,3 +111,11 @@ h5 {
     display: inline-block;
     margin-right: 60px;
 }
+
+.picofme {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 40%;
+    height: 300px;
+    display: inline-block;
+}
